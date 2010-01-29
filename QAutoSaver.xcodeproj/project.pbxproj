@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		382375B50F3A7BF900DF3CAC /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382375B40F3A7BF800DF3CAC /* AppController.m */; };
+		382375C70F3A7C9600DF3CAC /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382375C60F3A7C9600DF3CAC /* ScriptingBridge.framework */; };
+		382CA4C20FE01C1F00786123 /* QlabScripting.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CA4C10FE01C1F00786123 /* QlabScripting.m */; };
+		383BC62A0FD05DC800E3D942 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 960AB43C0FCDFCFD00C9FB18 /* Sparkle.framework */; };
+		385626E30FDEBD2000E911D0 /* SRRemoveShortcut.tif in Resources */ = {isa = PBXBuildFile; fileRef = 385626DF0FDEBD2000E911D0 /* SRRemoveShortcut.tif */; };
+		385626E40FDEBD2000E911D0 /* SRRemoveShortcutPressed.tif in Resources */ = {isa = PBXBuildFile; fileRef = 385626E00FDEBD2000E911D0 /* SRRemoveShortcutPressed.tif */; };
+		385626E50FDEBD2000E911D0 /* SRRemoveShortcutRollover.tif in Resources */ = {isa = PBXBuildFile; fileRef = 385626E10FDEBD2000E911D0 /* SRRemoveShortcutRollover.tif */; };
+		385626E60FDEBD2000E911D0 /* SRSnapback.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 385626E20FDEBD2000E911D0 /* SRSnapback.tiff */; };
+		38626FF30FC0C6F400820BB6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38626FF20FC0C6F400820BB6 /* Carbon.framework */; };
+		3893742A0FAB73CD0084B65D /* QSaverIcom.icns in Resources */ = {isa = PBXBuildFile; fileRef = 389374290FAB73CD0084B65D /* QSaverIcom.icns */; };
+		389957F50FDF548300BD4B9E /* SDGlobalShortcuts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389957F40FDF548300BD4B9E /* SDGlobalShortcuts.framework */; };
+		389957FB0FDF548900BD4B9E /* SDGlobalShortcuts.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 389957F40FDF548300BD4B9E /* SDGlobalShortcuts.framework */; };
+		389958280FDF552500BD4B9E /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389958270FDF552500BD4B9E /* ShortcutRecorder.framework */; };
+		389958290FDF552A00BD4B9E /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 389958270FDF552500BD4B9E /* ShortcutRecorder.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		960AB43D0FCDFCFD00C9FB18 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960AB43C0FCDFCFD00C9FB18 /* Sparkle.framework */; };
+		962180C60FCDA087003C3085 /* btn_donateCC_LG.gif in Resources */ = {isa = PBXBuildFile; fileRef = 962180C50FCDA087003C3085 /* btn_donateCC_LG.gif */; };
+		96B282E410078CD8008125F1 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 96B282E310078CD8008125F1 /* dsa_pub.pem */; };
+		96BB9BE90FCDB9B300843F02 /* AboutWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BB9BE80FCDB9B300843F02 /* AboutWindow.m */; };
+		96BB9C580FCDBE7B00843F02 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BB9C570FCDBE7B00843F02 /* AboutWindow.xib */; };
+		96FA4B0B0FC1B98D000E25E1 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA4B0A0FC1B98D000E25E1 /* PreferenceController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		383BC6220FD05DA300E3D942 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				383BC62A0FD05DC800E3D942 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3856272C0FDEC0EA00E911D0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				389958290FDF552A00BD4B9E /* ShortcutRecorder.framework in CopyFiles */,
+				389957FB0FDF548900BD4B9E /* SDGlobalShortcuts.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* QAutoSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAutoSaver_Prefix.pch; sourceTree = "<group>"; };
+		382375B30F3A7BF800DF3CAC /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		382375B40F3A7BF800DF3CAC /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		382375C60F3A7C9600DF3CAC /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = /System/Library/Frameworks/ScriptingBridge.framework; sourceTree = "<absolute>"; };
+		382375CA0F3A7DDE00DF3CAC /* Qlab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qlab.h; sourceTree = "<group>"; };
+		382CA4C00FE01C1F00786123 /* QlabScripting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QlabScripting.h; sourceTree = "<group>"; };
+		382CA4C10FE01C1F00786123 /* QlabScripting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QlabScripting.m; sourceTree = "<group>"; };
+		385626DF0FDEBD2000E911D0 /* SRRemoveShortcut.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SRRemoveShortcut.tif; sourceTree = "<group>"; };
+		385626E00FDEBD2000E911D0 /* SRRemoveShortcutPressed.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SRRemoveShortcutPressed.tif; sourceTree = "<group>"; };
+		385626E10FDEBD2000E911D0 /* SRRemoveShortcutRollover.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SRRemoveShortcutRollover.tif; sourceTree = "<group>"; };
+		385626E20FDEBD2000E911D0 /* SRSnapback.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = SRSnapback.tiff; sourceTree = "<group>"; };
+		38626FF20FC0C6F400820BB6 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		389374290FAB73CD0084B65D /* QSaverIcom.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = QSaverIcom.icns; sourceTree = "<group>"; };
+		389957F40FDF548300BD4B9E /* SDGlobalShortcuts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDGlobalShortcuts.framework; sourceTree = "<group>"; };
+		389958270FDF552500BD4B9E /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* QAutoSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QAutoSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		960AB43C0FCDFCFD00C9FB18 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		962180C50FCDA087003C3085 /* btn_donateCC_LG.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_donateCC_LG.gif; sourceTree = "<group>"; };
+		96B282E310078CD8008125F1 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		96BB9BE70FCDB9B300843F02 /* AboutWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWindow.h; sourceTree = "<group>"; };
+		96BB9BE80FCDB9B300843F02 /* AboutWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWindow.m; sourceTree = "<group>"; };
+		96BB9C570FCDBE7B00843F02 /* AboutWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
+		96FA4B090FC1B98D000E25E1 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		96FA4B0A0FC1B98D000E25E1 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				382375C70F3A7C9600DF3CAC /* ScriptingBridge.framework in Frameworks */,
+				38626FF30FC0C6F400820BB6 /* Carbon.framework in Frameworks */,
+				960AB43D0FCDFCFD00C9FB18 /* Sparkle.framework in Frameworks */,
+				389957F50FDF548300BD4B9E /* SDGlobalShortcuts.framework in Frameworks */,
+				389958280FDF552500BD4B9E /* ShortcutRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				382375B30F3A7BF800DF3CAC /* AppController.h */,
+				382375B40F3A7BF800DF3CAC /* AppController.m */,
+				382CA4C00FE01C1F00786123 /* QlabScripting.h */,
+				382CA4C10FE01C1F00786123 /* QlabScripting.m */,
+				382375CA0F3A7DDE00DF3CAC /* Qlab.h */,
+				96FA4B090FC1B98D000E25E1 /* PreferenceController.h */,
+				96FA4B0A0FC1B98D000E25E1 /* PreferenceController.m */,
+				96BB9BE70FCDB9B300843F02 /* AboutWindow.h */,
+				96BB9BE80FCDB9B300843F02 /* AboutWindow.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				389958270FDF552500BD4B9E /* ShortcutRecorder.framework */,
+				389957F40FDF548300BD4B9E /* SDGlobalShortcuts.framework */,
+				960AB43C0FCDFCFD00C9FB18 /* Sparkle.framework */,
+				38626FF20FC0C6F400820BB6 /* Carbon.framework */,
+				382375C60F3A7C9600DF3CAC /* ScriptingBridge.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* QAutoSaver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* QAutoSaver */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = QAutoSaver;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				385626DF0FDEBD2000E911D0 /* SRRemoveShortcut.tif */,
+				385626E00FDEBD2000E911D0 /* SRRemoveShortcutPressed.tif */,
+				385626E10FDEBD2000E911D0 /* SRRemoveShortcutRollover.tif */,
+				385626E20FDEBD2000E911D0 /* SRSnapback.tiff */,
+				962180C50FCDA087003C3085 /* btn_donateCC_LG.gif */,
+				389374290FAB73CD0084B65D /* QSaverIcom.icns */,
+				32CA4F630368D1EE00C91783 /* QAutoSaver_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96B282E310078CD8008125F1 /* dsa_pub.pem */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				96BB9C570FCDBE7B00843F02 /* AboutWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* QAutoSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "QAutoSaver" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				383BC6220FD05DA300E3D942 /* CopyFiles */,
+				3856272C0FDEC0EA00E911D0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QAutoSaver;
+			productInstallPath = "$(HOME)/Applications";
+			productName = QAutoSaver;
+			productReference = 8D1107320486CEB800E47090 /* QAutoSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QAutoSaver" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* QAutoSaver */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* QAutoSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				3893742A0FAB73CD0084B65D /* QSaverIcom.icns in Resources */,
+				962180C60FCDA087003C3085 /* btn_donateCC_LG.gif in Resources */,
+				96BB9C580FCDBE7B00843F02 /* AboutWindow.xib in Resources */,
+				385626E30FDEBD2000E911D0 /* SRRemoveShortcut.tif in Resources */,
+				385626E40FDEBD2000E911D0 /* SRRemoveShortcutPressed.tif in Resources */,
+				385626E50FDEBD2000E911D0 /* SRRemoveShortcutRollover.tif in Resources */,
+				385626E60FDEBD2000E911D0 /* SRSnapback.tiff in Resources */,
+				96B282E410078CD8008125F1 /* dsa_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				382375B50F3A7BF900DF3CAC /* AppController.m in Sources */,
+				96FA4B0B0FC1B98D000E25E1 /* PreferenceController.m in Sources */,
+				96BB9BE90FCDB9B300843F02 /* AboutWindow.m in Sources */,
+				382CA4C20FE01C1F00786123 /* QlabScripting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QAutoSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = QAutoSaver;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QAutoSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = QAutoSaver;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "QAutoSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QAutoSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
